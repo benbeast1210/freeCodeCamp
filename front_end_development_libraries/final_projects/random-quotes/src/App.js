@@ -16,7 +16,7 @@ export default function App() {
     return response.json();
   })
   .then((data) => {
-    setQuotes(data)
+    setQuotes(data);
   })
   .catch((error) => {
     //error.preventDefault();
